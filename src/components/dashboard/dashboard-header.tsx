@@ -51,20 +51,10 @@ export function DashboardHeader({
             </Label>
             <Switch id="auto-refresh" checked={autoRefresh} onCheckedChange={onToggleRefresh} />
           </div>
-          <div className="flex items-center gap-2">
-            <div className="text-sm text-muted-foreground">
-              {lastUpdated && `Updated ${formatDistanceToNow(lastUpdated, { addSuffix: true })}`}
-            </div>
-            <Button
-              variant="outline"
-              size="sm"
-              onClick={() => window.location.reload()}
-              disabled={isFetching}
-                >
-              <RefreshCw className={`h-4 w-4 mr-2 ${isFetching ? 'animate-spin' : ''}`} />
-              Refresh
-            </Button>
+          <div className="text-sm text-muted-foreground">
+            {lastUpdated && `Updated ${formatDistanceToNow(lastUpdated, { addSuffix: true })}`}
           </div>
+          <RefreshCw className={`h-4 w-4 text-muted-foreground ${isFetching ? 'animate-spin' : ''}`} />
 
         </div>
         
