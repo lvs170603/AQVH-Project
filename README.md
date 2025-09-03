@@ -2,6 +2,8 @@
 
 Quantum Observer is a real-time monitoring dashboard for quantum computing jobs and backend systems, built with Next.js, ShadCN UI, and Genkit. It provides a comprehensive view of job statuses, backend health, and performance metrics, along with AI-powered anomaly detection.
 
+> 🚀 **New to this project?** Check out our [Quick Start Guide](QUICKSTART.md) for the fastest way to get up and running!
+
 ## Features
 
 - **Real-time Job Tracking:** Monitor the status of all quantum jobs (Queued, Running, Completed, Error, Cancelled).
