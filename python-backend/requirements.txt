@@ -5,4 +5,4 @@ python-dotenv
 # On Windows, prefer conda (environment.yml) for Aer to avoid build issues.
 qiskit-terra
 qiskit-aer
-qiskit-ibm-runtime.
+qiskit-ibm-runtime
