@@ -17,8 +17,8 @@ export default async function Home() {
       <h1 className="text-2xl font-bold px-4 pt-4">
         Welcome {session.user?.name || "User"}
       </h1>*/}
-      {/* ✅ Dashboard UI */}
-      <ClientDashboard />
+      {/* ✅ Dashboard UI 
+      <ClientDashboard />*/}
     </div>
   )
 }
