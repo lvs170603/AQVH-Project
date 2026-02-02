@@ -145,10 +145,6 @@ Once the setup completes, open your browser and navigate to:
 
 If you prefer more control over the setup process:
 
-### Method 2: Manual Setup 🔧
-
-If you prefer more control over the setup process:
-
 <details>
 <summary>Click to expand manual setup instructions</summary>
 
@@ -580,8 +576,6 @@ For **port 9002** (Frontend):
    ```
 
 </details>
-
----
 
 ---
 
